@@ -2828,7 +2828,6 @@ static int	vmware_service_get_hv_data(const zbx_vmware_service_t *service, CURL 
 				"</ns0:propSet>"							\
 				"<ns0:propSet>"								\
 					"<ns0:type>Datastore</ns0:type>"				\
-					"<ns0:pathSet>host[\"%s\"].mountInfo.mounted</ns0:pathSet>"	\
 					"<ns0:pathSet>host[\"%s\"].mountInfo.accessible</ns0:pathSet>"	\
 					"<ns0:pathSet>host[\"%s\"].mountInfo.accessMode</ns0:pathSet>"	\
 				"</ns0:propSet>"							\
